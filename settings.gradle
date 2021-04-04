@@ -1,0 +1,3 @@
+include ':module_common'
+include ':app'
+rootProject.name = "AndroidStudy"
