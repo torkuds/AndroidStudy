@@ -28,7 +28,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
-        viewModel = new ViewModelProvider(this).get(NewsViewModel.class);
+//        viewModel = new ViewModelProvider(this).get(NewsViewModel.class);
+
+        viewModel = new NewsViewModel(getApplication());
 
         initView();
 
