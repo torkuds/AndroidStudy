@@ -1,3 +1,5 @@
+include ':zxingscanner'
+include ':myapplication'
 include ':module_common'
 include ':app'
 rootProject.name = "AndroidStudy"
